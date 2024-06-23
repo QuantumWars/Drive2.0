@@ -23,7 +23,7 @@ export default function Home() {
         createFile({
           name:"Hello World"
         });
-      }}>Click Me</Button>
+      }}>Create File</Button>
       {getfiles?.map(file=>{
         return <div key ={file._id}>{file.name}</div>
       })}
